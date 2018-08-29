@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<HEADER>
+	<LINK rel="stylesheet" type="text/css" href="style2.css">
+	<HTML lang="fr">
+	<META charset="utf-8"/>
+</HEADER>
+
+<HEAD>
+	<DIV ID='TITLE'><p class="SURV">L'heure n'est pas la bonne ... retentons !</p></DIV>
+
+</HEAD>
+<BODY>
+	<table style="width: 100%; margin-top: 50px">
+		<tr>
+			<td style="width: 50%">
+				<DIV ID='IMAGES'>
+					<img src="carte.png" alt="Carte" class="image3" style="text-align: center; margin: auto; width:'720px'; height:'480px'">
+				</DIV>
+			<td>
+				<DIV ID='TEXTE-DESC'>
+					Cependant, vous êtes tête en l'air, vous risquez de rester coincé au Pic.</br></br>
+					Si vous connaissez l'heure de fermeture, vous pourrez sortir avant qu'il ferme ses portes, sinon il faudra défoncer la porte ...</br></br>
+					PS : LE PIC A UN SITE HEIN !
+				</DIV>
+			</td>
+		</tr>
+		<FORM METHOD="POST" ACTION="pic-2-verif.php">
+			<td>
+				<table>
+					<tr style="height: 70px">
+						<td>
+							<DIV ID='PETITE' >
+								Heure de fermeture du Pic :
+							</DIV> 
+						</td>
+						<td>
+							<input type="number" name="code" size="48" placeholder="Pas de lettres, que 4 chiffres !">
+						</td>
+					</tr>
+				</table>
+			</td>
+			<td >
+				<table>
+					<tr>
+						<td>
+							<input type="submit" class="button" value="Suivant">
+						</td>
+						<td>
+							<a href="cassage-de-portes.html" class="button">NSM JDEFONCE LA PORTE</a>
+						</td>
+					</tr>
+				</table>
+			</td>
+			</FORM>
+		<tr>			
+	</table>
+</BODY>
